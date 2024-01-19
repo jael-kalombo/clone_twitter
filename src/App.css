@@ -1,37 +1,40 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 body {
     background-color: black;
 }
-.container_centrale{
+
+.container_centrale {
     display: flex;
     height: 100%;
     width: 100%;
-    gap: 5%;
     border: solid 0.1px;
     margin-top: 20px;
-    
-    
-    
-}
-.menu{
-    width: 25%;
-}
-.page_twitter{
-    width: 35%;
-}
-.liste_twitter{
-    width: 30%;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
-#title{
+.menu {
+    width: 18%;
+}
+
+.page_twitter {
+    width: 35%;
+}
+
+.liste_twitter {
+    width: 23%;
+}
+
+#title {
     color: white;
 
 }
 
-.container1{
+.container1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -40,14 +43,18 @@ body {
 
 }
 
-.container2{
+.container2 {
     height: 119px;
     border: solid 0.1px;
-    border-color: white; 
+    border-color: white;
 
 }
 
-.sousContainer2{
+.sousContainer1 {
+    display: flex;
+}
+
+.sousContainer2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -59,13 +66,147 @@ img {
     margin: 10px;
 }
 
-.btn-blue{
+.btn-blue {
     background-color: #1d9bf0;
-    border-radius:  38px;
+    display: flex;
     width: 79px;
+    height: 36px;
+    padding: 9px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 36px;
+    opacity: 0.5;
+}
+
+.btn-tweet {
+    width: 225px;
+    height: 52px;
+    padding: 16px 0px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 52px;
+    background: #1D9BF0;
+    color: #FFF;
+    
+}
+
+#input {
+    color: #18191b;
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #000000;
+    border: #000000;
+}
+
+.liste1 {
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.trends {
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.more {
+    color: #1d9bf0;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.trend_liste {
+    background-color: #18191b;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.sousMenu2 {
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4%;
+    margin-top: 30px;
+
+
+}
+
+.liste_twitter {
+    margin-left: 30px;
+}
+
+
+.follow_liste {
     color: #fff;
 }
-label{
-    color: white;
+
+#follow {
+    color: #6E767D;
+    font-family: "SF Pro Text";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
 }
- 
+
+.follow_liste {
+    border-radius: 20px;
+    padding-left: 20px;
+    background-color: #18191b;
+    margin-top: 20px;
+}
+
+.follow {
+    padding-top: 20px;
+}
+
+.btn-follow{
+    display: flex;
+padding: 7px 15px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 32px;
+background: #EFF3F4;
+}
+.follow_me{
+    display: inline-flex;
+}
+.user{
+    display:inline-flex;
+}
+.container3{
+    color: #fff;
+    display: flex;
+    height: 200px;
+    border: solid 0.1px;
+    border-color: white;
+    padding-top: 20px;
+}
+.userTweet{
+    display: flex;
+}
+.iconeFlex{
+    display: flex;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container4{
+  color: #fff;
+    display: flex;
+    height: 500px;
+    border: solid 0.1px;
+    border-color: white;
+    padding-top: 20px;  
+}
