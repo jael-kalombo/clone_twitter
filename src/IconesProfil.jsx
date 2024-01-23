@@ -2,7 +2,7 @@ import Follow from "./Follow";
 import ProfilImage from "./ProfilImage";
 import Squid from "./Squid";
 
-export default function IconesProfil (data) {
+export default function IconesProfil (props) {
     return(
         <>
         <div className="container4">

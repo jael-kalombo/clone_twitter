@@ -210,3 +210,19 @@ background: #EFF3F4;
     border-color: white;
     padding-top: 20px;  
 }
+
+#search{
+  border-radius: 20px;
+    padding-left: 20px;
+    background-color: #18191b;
+    width: 93%; 
+    height: 40px;
+
+}
+.entete{
+    color: #FFF;
+    display: flex;
+}
+.white{
+    color: #fff;
+}
