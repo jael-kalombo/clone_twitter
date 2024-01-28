@@ -1,9 +1,10 @@
-export default function ButtonRecherche () {
-    return(
+export default function ButtonRecherche(props) {
+    return (
         <>
-        <input type="text" id="search"/>
-        <img src="assets/Search.svg" alt="" />
-        
+            <div className= {`btn ${props.btnBg}`} >
+                <img src="assets/Search.svg" alt="" />
+                <input type="text" id="search" placeholder="search" />
+            </div>
         </>
     )
 }

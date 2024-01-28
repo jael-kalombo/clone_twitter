@@ -7,11 +7,11 @@ export default function Header(params) {
         <>
             <div className='container2'>
                 <div className='sousContainer1'>
-                    <ProfilImage src="assets/Profile-Photo.svg"></ProfilImage>
+                    <ProfilImage src="assets/Profile-Photo.svg"  ></ProfilImage>
                     <input type="text" id='input' placeholder='What´s happening ' />
                 </div>
                 <div className='sousContainer2'>
-                    <IconeTweet />
+                    <IconeTweet name='header_img' />
                     <Buttons name="Tweet" btnBg="btn-blue" />
                 </div>
             </div>

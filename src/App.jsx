@@ -9,7 +9,6 @@ import Squid from './Squid'
 import ButtonRecherche from './ButtonRecherche'
 import Follow from './Follow'
 import Menu from './Menu'
-import Tweet from './Tweet'
 import Header from './Header'
 import NavBar from './Navbar'
 import IconesProfil from './IconesProfil'
@@ -142,7 +141,6 @@ function App() {
       <div className='page_twitter'>
         <NavBar />
         <Header />
-        <Tweet />
         {/* <IconesProfil/> */}
         {
           tab.map((props) => <IconesProfil key={props} props={props} />)

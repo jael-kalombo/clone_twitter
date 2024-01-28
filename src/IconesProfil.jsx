@@ -1,8 +1,12 @@
+import { useState } from "react";
 import Follow from "./Follow";
 import ProfilImage from "./ProfilImage";
 import Squid from "./Squid";
 
-export default function IconesProfil (props) {
+export default function IconesProfil () {
+    const[change,setChange]=useState(false)
+    const[over,setOver]=useState(false)
+
     return(
         <>
         <div className="container4">
@@ -22,17 +26,22 @@ export default function IconesProfil (props) {
                 <div>
                     <ProfilImage src='assets/image 3.png' />
                 </div>
-                <div className="flex">
+                <div className="flex" onClick={()=> (setChange(!change))} onMouseOver={() =>(setOver(true)) } onMouseOut={()=>(setOver(false)) }>
                     <div className="iconeFlex">
-                        <ProfilImage src='assets/Reply.svg' />
+                        {
+                            over==false ? <ProfilImage src='assets/Reply.svg' />:<ProfilImage src='assets/Reply 2.svg' />
+                    }
+                     
                         <Follow title='57' />
                     </div>
                     <div className="iconeFlex">
                         <ProfilImage src='assets/Retweet.svg' />
                         <Follow title='144' />
                     </div>
-                    <div className="iconeFlex">
-                        <ProfilImage src='assets/React.svg' />
+                    <div className="iconeFlex">{
+                        over==true ? <ProfilImage src='assets/React 2.svg' />:(change==false ? <ProfilImage src='assets/React.svg' /> :<ProfilImage src='assets/React 3.svg' /> )
+                    }
+                        
                         <Follow title='184' />
                     </div>
                     <div>

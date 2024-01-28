@@ -6,7 +6,7 @@ export default function TwitterFollowers () {
     return(
         <>
         <div className='liste_twitter'>
-          <ButtonRecherche />
+          <ButtonRecherche btnBg='button_search' />
           <Liste />
           <Followlistes />
         </div>

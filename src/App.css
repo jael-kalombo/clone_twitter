@@ -12,21 +12,21 @@ body {
     height: 100%;
     width: 100%;
     border: solid 0.1px;
-    margin-top: 20px;
-    margin-left: 8%;
-    margin-right: 8%;
+    margin-left: 18%;
+    margin-right: 18%;
 }
 
 .menu {
-    width: 18%;
+    width: 13%;
 }
 
 .page_twitter {
-    width: 35%;
+    width: 33%;
 }
 
 .liste_twitter {
-    width: 23%;
+    width: 18%;
+    margin-left: 30px;
 }
 
 #title {
@@ -39,14 +39,14 @@ body {
     flex-direction: row;
     justify-content: space-between;
     border: solid 0.1px;
-    border-color: white;
+    border-color: #18191b;
 
 }
 
 .container2 {
     height: 119px;
     border: solid 0.1px;
-    border-color: white;
+    border-color: #18191b;
 
 }
 
@@ -62,8 +62,13 @@ body {
     margin-right: 20px;
 }
 
-img {
-    margin: 10px;
+
+.width_img{
+    width: 30px;
+}
+.header_img{
+    margin-top: 20px;
+    padding: 10px;
 }
 
 .btn-blue {
@@ -88,7 +93,7 @@ img {
     border-radius: 52px;
     background: #1D9BF0;
     color: #FFF;
-    
+
 }
 
 #input {
@@ -140,11 +145,6 @@ img {
 
 }
 
-.liste_twitter {
-    margin-left: 30px;
-}
-
-
 .follow_liste {
     color: #fff;
 }
@@ -152,7 +152,7 @@ img {
 #follow {
     color: #6E767D;
     font-family: "SF Pro Text";
-    font-size: 13px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
@@ -169,21 +169,31 @@ img {
     padding-top: 20px;
 }
 
-.btn-follow{
+.btn-follow {
     display: flex;
-padding: 7px 15px;
-align-items: flex-start;
-gap: 10px;
-border-radius: 32px;
-background: #EFF3F4;
+    padding: 7px 15px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 32px;
+    background: #EFF3F4;
 }
-.follow_me{
+.button_search{
+    display: flex;
+    background-color: #18191b;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    gap: 5px;
+}
+
+.follow_me {
     display: inline-flex;
 }
-.user{
-    display:inline-flex;
+
+.user {
+    display: inline-flex;
 }
-.container3{
+
+.container3 {
     color: #fff;
     display: flex;
     height: 200px;
@@ -191,38 +201,93 @@ background: #EFF3F4;
     border-color: white;
     padding-top: 20px;
 }
-.userTweet{
+
+.userTweet {
     display: flex;
 }
-.iconeFlex{
+
+.iconeFlex {
     display: flex;
 }
-.flex{
+
+.flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.container4{
-  color: #fff;
+
+.container4 {
+    color: #fff;
     display: flex;
     height: 500px;
     border: solid 0.1px;
-    border-color: white;
-    padding-top: 20px;  
+    border-color: #18191b;
+    padding-top: 20px;
 }
 
-#search{
-  border-radius: 20px;
+#search {
+    border-radius: 20px;
     padding-left: 20px;
     background-color: #18191b;
-    width: 93%; 
+    width: 93%;
     height: 40px;
 
 }
-.entete{
+
+.myProfil {
     color: #FFF;
     display: flex;
+    gap: 2rem;
+    margin-top: 10px;
 }
-.white{
+
+.homeProfil {
     color: #fff;
+    border: solid 0.1px;
+    border-color: #18191b;
+    width: 33%;
+}
+.nameProfil {
+    color: #fff;
+     background-color: rgba(79, 3, 107, 0.991); 
+  border-radius: 100px;
+  border: solid black;
+  width: 160px; 
+  height: 160px;
+  text-align: center;
+  font-size: 50px;
+  position: relative;
+  left: 2rem;
+  top: 10rem;
+
+    
+}
+
+.colorProfil{
+background-color: #18191b;
+height:230px ;
+margin-top: 10px;
+}
+.bottom{
+    margin-top:7rem;
+    margin-left: 2rem;
+    
+}
+.first-line{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+.marker{
+    border: solid  0.1pt;
+    margin-top: 30px;
+    border-color: #18191b;
+}
+.selection{
+    display: flex;
+    margin-left: 2rem;
+    gap: 1rem;
 }
