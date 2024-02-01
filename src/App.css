@@ -36,11 +36,13 @@ body {
 
 .container1 {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     border: solid 0.1px;
     border-color: #18191b;
-
+    height: 45px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
 }
 
 .container2 {
@@ -52,36 +54,43 @@ body {
 
 .sousContainer1 {
     display: flex;
+    position: relative;
+    top: 1rem;
+    left: 1rem;
 }
 
 .sousContainer2 {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     margin-left: 38px;
     margin-right: 20px;
+    cursor: pointer;
 }
 
 
-.width_img{
+.width_img {
     width: 30px;
 }
-.header_img{
-    margin-top: 20px;
+
+.header_img {
+    margin-top: 2rem;
     padding: 10px;
 }
 
 .btn-blue {
     background-color: #1d9bf0;
-    display: flex;
     width: 79px;
     height: 36px;
     padding: 9px 16px;
-    align-items: flex-start;
-    gap: 10px;
-    flex-shrink: 0;
+    align-items: center;
     border-radius: 36px;
     opacity: 0.5;
+    border: #1D9BF0;
+    color: #fff;
+    font-size: 15px;
+    position: relative;
+    top: 2rem;
+    cursor: pointer;
 }
 
 .btn-tweet {
@@ -89,11 +98,13 @@ body {
     height: 52px;
     padding: 16px 0px;
     align-items: center;
-    flex-shrink: 0;
     border-radius: 52px;
     background: #1D9BF0;
     color: #FFF;
-
+    border: #1D9BF0;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
 }
 
 #input {
@@ -141,8 +152,7 @@ body {
     flex-wrap: wrap;
     gap: 4%;
     margin-top: 30px;
-
-
+    cursor: pointer;
 }
 
 .follow_liste {
@@ -152,7 +162,6 @@ body {
 #follow {
     color: #6E767D;
     font-family: "SF Pro Text";
-    font-size: 15px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
@@ -160,7 +169,6 @@ body {
 
 .follow_liste {
     border-radius: 20px;
-    padding-left: 20px;
     background-color: #18191b;
     margin-top: 20px;
 }
@@ -177,16 +185,20 @@ body {
     border-radius: 32px;
     background: #EFF3F4;
 }
-.button_search{
+
+.button_search {
     display: flex;
     background-color: #18191b;
     border-radius: 20px;
     margin-bottom: 20px;
     gap: 5px;
+    margin-top: 10px;
 }
 
 .follow_me {
     display: inline-flex;
+    gap: 15px;
+    margin-bottom: 20px;
 }
 
 .user {
@@ -194,12 +206,9 @@ body {
 }
 
 .container3 {
-    color: #fff;
-    display: flex;
-    height: 200px;
-    border: solid 0.1px;
-    border-color: white;
-    padding-top: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .userTweet {
@@ -208,12 +217,25 @@ body {
 
 .iconeFlex {
     display: flex;
+    gap: 25px;
+    margin-top: 10px;
 }
 
 .flex {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 4rem;
+}
+
+.flex_class {
+    font-size: 20px;
+}
+
+.top_image {
+    margin-top: 10px;
+}
+
+.assets_image {
+    margin-top: 15px;
 }
 
 .container4 {
@@ -223,6 +245,13 @@ body {
     border: solid 0.1px;
     border-color: #18191b;
     padding-top: 20px;
+    cursor: pointer;
+}
+
+.container5 {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 #search {
@@ -231,7 +260,7 @@ body {
     background-color: #18191b;
     width: 93%;
     height: 40px;
-
+    border: #18191b;
 }
 
 .myProfil {
@@ -247,33 +276,53 @@ body {
     border-color: #18191b;
     width: 33%;
 }
-.nameProfil {
+
+.name_profile {
     color: #fff;
-     background-color: rgba(79, 3, 107, 0.991); 
-  border-radius: 100px;
-  border: solid black;
-  width: 160px; 
-  height: 160px;
-  text-align: center;
-  font-size: 50px;
-  position: relative;
-  left: 2rem;
-  top: 10rem;
+    background-color: rgba(79, 3, 107, 0.991);
+    border-radius: 100px;
+    border: solid black;
+    width: 160px;
+    height: 160px;
+    font-size: 80px;
+    position: relative;
+    left: 2rem;
+    top: 8rem;
+    text-align: center;
 
-    
 }
 
-.colorProfil{
-background-color: #18191b;
-height:230px ;
-margin-top: 10px;
+.name_profile p {
+    margin-top: 29px;
 }
-.bottom{
-    margin-top:7rem;
+
+
+.colorProfil {
+    background-color: #18191b;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.bottom {
+    margin-top: 7rem;
     margin-left: 2rem;
-    
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2rem;
 }
-.first-line{
+
+.btn-Edit {
+    background-color: #000000;
+    color: #fff;
+    width: 120px;
+    height: 40px;
+    border: solid 0.1px #18191b;
+    border-radius: 20px;
+    position: relative;
+    bottom: 6rem;
+}
+
+.first-line {
     display: flex;
     justify-content: space-between;
     margin-top: 2rem;
@@ -281,13 +330,24 @@ margin-top: 10px;
     margin-right: 40px;
 
 }
-.marker{
-    border: solid  0.1pt;
+
+.marker {
+    border: solid 0.1pt;
     margin-top: 30px;
     border-color: #18191b;
 }
-.selection{
+
+.selection {
     display: flex;
     margin-left: 2rem;
     gap: 1rem;
+}
+
+.view {
+    margin-left: 2rem;
+    margin-top: 20px;
+}
+
+.Edit_profile {
+    color: #fff;
 }

@@ -10,7 +10,7 @@ export default function Followlistes (){
             <div className='follow'>
               <Squid title='Who to follow' />
             </div>
-            <div className=''>
+            <div className='container5'>
               <div className='follow_me'>
                 <div>
                   <ProfilImage src='assets/Profile-Photo (1).png' />

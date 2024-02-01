@@ -17,16 +17,22 @@ export default function Profil() {
                     </div>
                 </div>
                 <div className="colorProfil">
-                    <div className="nameProfil" >
-                        <h1>j</h1>
+                    <div className="name_profile"  >
+                        <p>J</p>
                     </div>
-
                 </div>
                 <div className='bottom' >
-                    <h3>Jael Kapinga kalombo</h3>
-                    <p>@KalomboJae19504</p>
+                    <div>
+                        <h3>Jael Kapinga kalombo</h3>
+                        <p>@KalomboJae19504</p>
+                    </div>
+
+                    <div>
+                        <Buttons name='Edit profil' btnBg='btn-Edit' />
+                    </div>
                 </div>
-                <div>
+
+                <div className="view" >
                     <p>Joined January 2024</p>
                     <img src="" alt="" />
                 </div>
@@ -45,7 +51,7 @@ export default function Profil() {
                     <div className='follow'>
                         <Squid title='Who to follow' />
                     </div>
-                    <div className=''>
+                    <div className='container3'>
                         <div className='follow_me'>
                             <div>
                                 <ProfilImage src='assets/Profile-Photo (1).png' />
